@@ -41,7 +41,7 @@ void Medicine ::inputdetails()
 
     MedicineData Medicine;
 
-    cout << "Enter name of the Medicine: ";
+    cout << "Enter name of the Medicines: ";
     cin.ignore();
     cin.getline(Medicine.medicine_name, sizeof(Medicine.medicine_name));
 
